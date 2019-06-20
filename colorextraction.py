@@ -4,7 +4,6 @@ import numpy as np
 cap = cv2.VideoCapture(2)
 
 while(1):
-    print("hoge")
     # Take each frame
     _, frame = cap.read()
 
